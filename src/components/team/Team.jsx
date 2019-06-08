@@ -10,7 +10,7 @@ import david from '../../images/david.png';
 import rick from '../../images/rick.png';
 // import natalia from '../../images/natalia.png';
 import gunnar from '../../images/gunnar.png';
-import eileen from '../../images/eileen.png';
+// import eileen from '../../images/eileen.png';
 import suki from '../../images/suki.png';
 import roshini from '../../images/roshini.png';
 // import roxanne from '../../images/roxanne.png';
