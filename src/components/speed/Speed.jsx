@@ -10,7 +10,7 @@ import * as Custom from './speed_styles';
 const Speed = () => (
   <Custom.Container>
     <Custom.Header>
-      <h2>An End to Information Chaos</h2>
+      <h2>An End to <span>Information Chaos</span></h2>
       <p>Resolving healthcare's #1 inefficiency</p>
     </Custom.Header>
     <Custom.Columns>

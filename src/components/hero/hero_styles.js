@@ -22,6 +22,7 @@ export const Container = styled.header`
   }
   p {
     max-width: 600px;
+    line-height: 1.3em;
   }
 `;
 export const Browser = styled.img`

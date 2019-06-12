@@ -36,6 +36,10 @@ export const GlobalStyles = createGlobalStyle`
     letter-spacing: .02em;
     line-height: 1.3em;
     margin: 0 0 10px 0;
+
+    span {
+      display: inline-block;
+    }
   }
   h4 {
     margin-bottom: 14px;
