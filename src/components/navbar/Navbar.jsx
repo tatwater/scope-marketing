@@ -11,14 +11,14 @@ const Navbar = () => (
         alt='Logo'
         src={ logo }
       />
-      <Custom.CTA>
+      {/* <Custom.CTA>
         Launching Soon
         <Custom.CTAButton
           to='/'
         >
           Get Notified
         </Custom.CTAButton>
-      </Custom.CTA>
+      </Custom.CTA> */}
     </Custom.Content>
   </Custom.Container>
 );

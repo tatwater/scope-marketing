@@ -8,26 +8,36 @@ export const Container = styled.section`
   color: #000A20;
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 120px);
   justify-content: center;
-  padding-bottom: 220px;
+  padding: 100px 0 320px;
   position: relative;
   text-align: center;
 
   p {
     max-width: 600px;
   }
+
+  @media screen and (min-width: 768px) {
+    height: calc(100vh - 120px);
+    padding: 0 0 220px;
+  }
 `;
 export const Header = styled.header`
   margin: 20px 0 70px;
 `;
 export const Columns = styled.div`
-  align-items: flex-start;
+  align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   max-width: 1140px;
+  padding: 0 10px;
   width: 100%;
+
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
+    flex-direction: row;
+  }
 `;
 export const Column = styled.div`
   align-items: center;
@@ -35,7 +45,15 @@ export const Column = styled.div`
   flex-direction: column;
   flex-basis: 0;
   flex-grow: 1;
-  max-width: 300px;
+  padding: 0 10px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 300px;
+
+    & + div {
+      padding-top: 60px;
+    }
+  }
 `;
 export const IconWrapper = styled.div`
   align-items: center;
@@ -54,10 +72,9 @@ export const CTA = styled.div`
   color: #535D76;
   display: flex;
   flex-direction: column;
-  height: 350px;
   justify-content: center;
   max-width: 680px;
-  padding: 20px 80px 0;
+  padding: 60px 30px;
   position: absolute;
     bottom: -130px;
     left: 50%;
@@ -65,13 +82,28 @@ export const CTA = styled.div`
   width: calc(100% - 40px);
 
   h2 {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 500;
     line-height: 1.4em;
     // margin-bottom: 28px;
+
+    @media screen and (min-width: 410px) {
+      font-size: 26px;
+    }
+    @media screen and (min-width: 480px) {
+      font-size: 30px;
+    }
   }
   p {
     max-width: 400px;
+  }
+
+  @media screen and (min-width: 410px) {
+    padding: 60px 60px;
+  }
+  @media screen and (min-width: 768px) {
+    height: 350px;
+    padding: 20px 80px 0;
   }
 `;
 export const CTAButton = styled(Link)`

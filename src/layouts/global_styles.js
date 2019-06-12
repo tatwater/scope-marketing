@@ -22,6 +22,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 48px;
     font-weight: 600;
     letter-spacing: .02em;
+    line-height: 1.1em;
     margin: 0 0 32px 0;
 
     & + p {

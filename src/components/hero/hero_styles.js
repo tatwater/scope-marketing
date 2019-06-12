@@ -13,8 +13,12 @@ export const Container = styled.header`
   text-align: center;
 
   h1, p {
+    padding: 0 20px;
     position: relative;
     z-index: 1;
+  }
+  h1 {
+    max-width: 780px;
   }
   p {
     max-width: 600px;
