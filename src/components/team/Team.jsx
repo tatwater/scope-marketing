@@ -8,12 +8,12 @@ import greg from '../../images/greg.png';
 import travis from '../../images/travis.png';
 import david from '../../images/david.png';
 import rick from '../../images/rick.png';
+import roxanne from '../../images/roxanne.png';
 // import natalia from '../../images/natalia.png';
 import gunnar from '../../images/gunnar.png';
 // import eileen from '../../images/eileen.png';
 import suki from '../../images/suki.png';
 import roshini from '../../images/roshini.png';
-// import roxanne from '../../images/roxanne.png';
 import * as Custom from './team_styles';
 
 
@@ -135,6 +135,20 @@ const Team = () => (
         </Custom.Basics>
         <Custom.Bio>Section Chief of Vascular Surgery at Dartmouth Hitchcock Medical Center. Professor of Surgery, Professor of Radiology at the Geisel School of Medicine at Dartmouth College.</Custom.Bio>
       </Custom.Person>
+      <Custom.Person>
+        <Custom.Photo
+          alt='Roxanne Low'
+          src={ roxanne }
+        />
+        <Custom.Basics>
+          <Custom.RoleWrapper>
+            <Custom.Role>Head of User Interaction Design</Custom.Role>
+          </Custom.RoleWrapper>
+          <Custom.Name>Roxanne Low</Custom.Name>
+          <Custom.Location>Hanover, NH</Custom.Location>
+        </Custom.Basics>
+        <Custom.Bio>BA in Art and Computer Science, Selected Scholar for the Ammerman Center for Arts and Technology Certificate Program at Connecticut College.</Custom.Bio>
+      </Custom.Person>
       {/* <Custom.Person>
         <Custom.Photo
           alt='Natalia Eframova'
@@ -218,20 +232,6 @@ const Team = () => (
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
         <Custom.Bio>Description</Custom.Bio>
-      </Custom.Person> */}
-      {/* <Custom.Person>
-        <Custom.Photo
-          alt='Roxanne Low'
-          src={ roxanne }
-        />
-        <Custom.Basics>
-          <Custom.RoleWrapper>
-            <Custom.Role>User Interaction Design Intern</Custom.Role>
-          </Custom.RoleWrapper>
-          <Custom.Name>Roxanne Low</Custom.Name>
-          <Custom.Location>Hanover, NH</Custom.Location>
-        </Custom.Basics>
-        <Custom.Bio>BA in Art and Computer Science, Selected Scholar for the Ammerman Center for Arts and Technology Certificate Program at Connecticut College.</Custom.Bio>
       </Custom.Person> */}
     </Custom.People>
   </Custom.Container>

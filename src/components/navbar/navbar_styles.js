@@ -13,7 +13,7 @@ export const Container = styled.nav`
 export const Content = styled.div`
   align-items: center;
   display: flex;
-  height: 120px;
+  height: 80px;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
@@ -21,6 +21,10 @@ export const Content = styled.div`
 
   img {
     margin: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 120px;
   }
 `;
 export const CTA = styled.div`
