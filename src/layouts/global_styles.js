@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
   html {
     background: #000A20;
     color: #000A20;
-    font-family: 'TT Norms';
+    font-family: 'TT Norms' sans-serif;
     font-size: 16px;
     line-height: 1.3em;
   }
@@ -19,7 +19,7 @@ export const GlobalStyles = createGlobalStyle`
     background: #FFF;
   }
   h1 {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 600;
     letter-spacing: .02em;
     line-height: 1.1em;
@@ -28,6 +28,10 @@ export const GlobalStyles = createGlobalStyle`
     & + p {
       font-size: 18px;
       letter-spacing: .02em;
+    }
+
+    @media screen and (min-width: 480px) {
+      font-size: 48px;
     }
   }
   h2 {

@@ -123,20 +123,6 @@ const Team = () => (
       </Custom.Person>
       <Custom.Person>
         <Custom.Photo
-          alt='Richard Powell, MD'
-          src={ rick }
-        />
-        <Custom.Basics>
-          <Custom.RoleWrapper>
-            <Custom.Role>Chief Medical Officer</Custom.Role>
-          </Custom.RoleWrapper>
-          <Custom.Name>Richard Powell, MD</Custom.Name>
-          <Custom.Location>Hanover, NH</Custom.Location>
-        </Custom.Basics>
-        <Custom.Bio>Section Chief of Vascular Surgery at Dartmouth Hitchcock Medical Center. Professor of Surgery, Professor of Radiology at the Geisel School of Medicine at Dartmouth College.</Custom.Bio>
-      </Custom.Person>
-      <Custom.Person>
-        <Custom.Photo
           alt='Roxanne Low'
           src={ roxanne }
         />
@@ -148,6 +134,20 @@ const Team = () => (
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
         <Custom.Bio>BA in Art and Computer Science, Selected Scholar for the Ammerman Center for Arts and Technology Certificate Program at Connecticut College.</Custom.Bio>
+      </Custom.Person>
+      <Custom.Person>
+        <Custom.Photo
+          alt='Richard Powell, MD'
+          src={ rick }
+        />
+        <Custom.Basics>
+          <Custom.RoleWrapper>
+            <Custom.Role>Chief Medical Officer</Custom.Role>
+          </Custom.RoleWrapper>
+          <Custom.Name>Richard Powell, MD</Custom.Name>
+          <Custom.Location>Hanover, NH</Custom.Location>
+        </Custom.Basics>
+        <Custom.Bio>Section Chief of Vascular Surgery at Dartmouth Hitchcock Medical Center. Professor of Surgery, Professor of Radiology at the Geisel School of Medicine at Dartmouth College.</Custom.Bio>
       </Custom.Person>
       {/* <Custom.Person>
         <Custom.Photo

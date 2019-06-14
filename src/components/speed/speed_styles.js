@@ -31,7 +31,7 @@ export const Columns = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 1140px;
+  max-width: 1240px;
   padding: 0 10px;
   width: 100%;
 
@@ -46,10 +46,11 @@ export const Column = styled.div`
   flex-direction: column;
   flex-basis: 0;
   flex-grow: 1;
-  padding: 0 10px;
+  padding: 0 40px;
 
   @media screen and (max-width: 768px) {
     max-width: 300px;
+    padding: 0 10px;
 
     & + div {
       padding-top: 60px;
