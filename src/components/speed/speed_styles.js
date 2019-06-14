@@ -12,6 +12,7 @@ export const Container = styled.section`
   padding: 100px 0 320px;
   position: relative;
   text-align: center;
+  z-index: 1;
 
   p {
     max-width: 600px;

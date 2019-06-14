@@ -10,7 +10,9 @@ export const Container = styled.footer`
   flex-direction: column;
   justify-content: center;
   padding-bottom: 70px;
+  position: relative;
   text-align: center;
+  z-index: 1;
 `;
 export const Copyright = styled.span`
   color: #212C40;

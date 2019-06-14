@@ -8,6 +8,8 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   padding: 270px 0 100px;
+  position: relative;
+    z-index: 0;
 `;
 export const Header = styled.header`
   margin-bottom: 50px;

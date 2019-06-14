@@ -9,8 +9,12 @@ export const Container = styled.header`
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  position: relative;
+  position: fixed;
+    top: 0;
+    left: 0;
   text-align: center;
+  z-index: 0;
+  width: 100vw;
 
   h1, p {
     padding: 0 20px;
