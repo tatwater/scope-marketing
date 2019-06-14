@@ -91,6 +91,23 @@ export const Name = styled.span`
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 1px;
+  position: relative;
+    top: -1px;
+`;
+export const LinkedIn = styled.a`
+  opacity: .65;
+  transition: opacity .2s ease;
+
+  img {
+    height: 18px;
+    margin: 0 0 0 16px;
+    position: relative;
+      top: 2.5px;
+  }
+
+  &:hover {
+    opacity: .8
+  }
 `;
 export const Location = styled.span`
   color: #DDDDDD;

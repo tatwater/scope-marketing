@@ -14,6 +14,7 @@ import gunnar from '../../images/gunnar.png';
 // import eileen from '../../images/eileen.png';
 import suki from '../../images/suki.png';
 import roshini from '../../images/roshini.png';
+import linkedin from '../../images/linkedin.svg';
 import * as Custom from './team_styles';
 
 
@@ -60,7 +61,15 @@ const Team = () => (
           <Custom.RoleWrapper>
             <Custom.Role>Cheif Design Officer, CTO, & <span>Co-Founder</span></Custom.Role>
           </Custom.RoleWrapper>
-          <Custom.Name>Teagan Atwater</Custom.Name>
+          <Custom.Name>
+            Teagan Atwater
+            <Custom.LinkedIn
+              target='_new'
+              href='https://www.linkedin.com/in/teaganatwater/'
+            >
+              <img alt='LinkedIn' src={ linkedin } />
+            </Custom.LinkedIn>
+          </Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
         <Custom.Bio>Formerly CTO & Co-founder of Fiber and Founder of Shadow Art Studios. BA in Computer Science and Architectural Studies, Selected Scholar for the Ammerman Center for Arts and Technology Certificate Program at Connecticut College.</Custom.Bio>
@@ -116,7 +125,15 @@ const Team = () => (
           <Custom.RoleWrapper>
             <Custom.Role>CEO, CFO, & <span>Co-Founder</span></Custom.Role>
           </Custom.RoleWrapper>
-          <Custom.Name>David Loney, CP, MBA</Custom.Name>
+          <Custom.Name>
+            David Loney, CP, MBA
+            <Custom.LinkedIn
+              target='_new'
+              href='https://www.linkedin.com/in/david-loney-50b86744/'
+            >
+              <img alt='LinkedIn' src={ linkedin } />
+            </Custom.LinkedIn>
+          </Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
         <Custom.Bio>Formerly President and Founder of WillowBrook Prosthetics. Executive MBA from Oxford University. B.Sc. in Human Kinetics from the University of Guelph in Ontario.</Custom.Bio>
