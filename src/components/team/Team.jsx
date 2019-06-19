@@ -59,7 +59,7 @@ const Team = () => (
         />
         <Custom.Basics>
           <Custom.RoleWrapper>
-            <Custom.Role>Cheif Design Officer, CTO, & <span>Co-Founder</span></Custom.Role>
+            <Custom.Role>Chief Design Officer, CTO, & <span>Co-Founder</span></Custom.Role>
           </Custom.RoleWrapper>
           <Custom.Name>
             Teagan Atwater
