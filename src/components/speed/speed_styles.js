@@ -30,7 +30,6 @@ export const Columns = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   max-width: 1240px;
   padding: 0 10px;
   width: 100%;
@@ -38,6 +37,7 @@ export const Columns = styled.div`
   @media screen and (min-width: 768px) {
     align-items: flex-start;
     flex-direction: row;
+    justify-content: space-between;
   }
 `;
 export const Column = styled.div`
