@@ -8,7 +8,6 @@ export const Container = styled.section`
   color: #000A20;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 100px 0 320px;
   position: relative;
   text-align: center;
@@ -20,6 +19,7 @@ export const Container = styled.section`
 
   @media screen and (min-width: 768px) {
     height: calc(100vh - 120px);
+    justify-content: center;
     padding: 0 0 220px;
   }
 `;
