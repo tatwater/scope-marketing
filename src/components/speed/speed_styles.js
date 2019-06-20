@@ -8,6 +8,8 @@ export const Container = styled.section`
   color: #000A20;
   display: flex;
   flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
   padding: 100px 0 320px;
   position: relative;
   text-align: center;
