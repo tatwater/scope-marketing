@@ -1,7 +1,6 @@
 import React from 'react';
 
 import logo from '../../images/logo.svg';
-import logoForPreview from '../../images/logo.png';
 import * as Custom from './navbar_styles';
 
 
@@ -12,12 +11,6 @@ const Navbar = () => (
         alt='Logo'
         src={ logo }
       />
-      <Custom.HiddenLogo>
-        <img
-          alt='Logo'
-          src={ logoForPreview }
-        />
-      </Custom.HiddenLogo>
       {/* <Custom.CTA>
         Launching Soon
         <Custom.CTAButton

@@ -29,6 +29,10 @@ export const Container = styled.header`
     line-height: 1.3em;
   }
 `;
+export const HiddenLogo = styled.div`
+  position: absolute;
+    top: -1000px;
+`;
 export const Browser = styled.img`
   max-width: 1040px;
   position: absolute;

@@ -27,10 +27,6 @@ export const Content = styled.div`
     height: 120px;
   }
 `;
-export const HiddenLogo = styled.div`
-  position: relative;
-  z-index: -100;
-`;
 export const CTA = styled.div`
   align-items: center;
   color: #DDDFE9;
