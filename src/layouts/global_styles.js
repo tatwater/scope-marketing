@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
   html {
     background: #000A20;
     color: #000A20;
-    font-family: 'TT Norms' sans-serif;
+    font-family: acumin-pro, sans-serif;
     font-size: 16px;
     line-height: 1.3em;
   }
