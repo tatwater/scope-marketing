@@ -31,6 +31,7 @@ export const Header = styled.header`
 export const Columns = styled.div`
   align-items: center;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
   max-width: 1240px;
   padding: 0 10px;
@@ -38,6 +39,7 @@ export const Columns = styled.div`
 
   @media screen and (min-width: 768px) {
     align-items: flex-start;
+    -webkit-flex-direction: row;
     flex-direction: row;
     justify-content: space-between;
   }
