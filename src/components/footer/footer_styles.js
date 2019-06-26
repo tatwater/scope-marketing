@@ -28,7 +28,7 @@ export const Footnotes = styled.div`
   margin-top: 30px;
 `;
 export const Footnote = styled.span`
-  color: #212C40;
+  color: #324359;
   display: block;
   font-size: 12px;
   line-height: 1.3em;
