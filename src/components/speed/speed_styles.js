@@ -34,7 +34,6 @@ export const Columns = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 1240px;
-  justify-content: flex-start;
   padding: 0 10px;
   width: 100%;
 
@@ -51,8 +50,8 @@ export const Column = styled.div`
   padding: 0 40px;
 
   @media screen and (max-width: 768px) {
-    flex-basis: 0;
-    flex-grow: 1;
+    // flex-basis: 0;
+    // flex-grow: 1;
     max-width: 300px;
     padding: 0 10px;
 
