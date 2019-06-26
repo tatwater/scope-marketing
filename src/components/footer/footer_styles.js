@@ -24,10 +24,16 @@ export const Copyright = styled.span`
   margin-top: 10px;
 `;
 export const Footnotes = styled.div`
+  background: #000A20;
   margin-top: 30px;
 `;
 export const Footnote = styled.span`
   color: #212C40;
   display: block;
   font-size: 12px;
+  max-width: 100%;
+
+  a:hover {
+    text-decoration: underline;
+  }
 `;
