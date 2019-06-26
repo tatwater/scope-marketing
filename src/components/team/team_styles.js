@@ -100,7 +100,7 @@ export const LinkedIn = styled.a`
 
   img {
     height: 18px;
-    margin: 0 0 0 16px;
+    margin: 0 0 0 12px;
     position: relative;
       top: 2.5px;
   }
