@@ -102,7 +102,7 @@ export const LinkedIn = styled.a`
     height: 18px;
     margin: 0 0 0 12px;
     position: relative;
-      top: 2.5px;
+      top: 4px;
   }
 
   &:hover {

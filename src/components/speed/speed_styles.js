@@ -11,7 +11,7 @@ export const Container = styled.section`
   height: auto;
   justify-content: flex-start;
   min-height: 720px;
-  padding: 100px 0 320px;
+  padding: 100px 0 240px;
   position: relative;
   text-align: center;
   z-index: 1;
