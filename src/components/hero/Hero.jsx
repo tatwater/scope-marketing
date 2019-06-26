@@ -14,7 +14,7 @@ const Hero = () => (
       />
     </Custom.HiddenLogo>
     <Custom.Browser src={ browser } alt='browser' />
-    <h1>Health information technology, as you imagined it</h1>
+    <h1>Health information technology, as you imagine it</h1>
     <p>Innovated by a community of clinicians, designers, and engineers</p>
   </Custom.Container>
 );
