@@ -9,12 +9,13 @@ export const Container = styled.footer`
   font-size: 14px;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
   padding-bottom: 70px;
   position: relative;
   text-align: center;
-  width: 90%;
   z-index: 1;
+`;
+export const Content = styled.div`
+  width: 90%;
 `;
 export const Copyright = styled.span`
   color: #212C40;

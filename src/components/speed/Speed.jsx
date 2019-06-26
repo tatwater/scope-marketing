@@ -52,7 +52,7 @@ const Speed = () => (
     </Custom.Columns>
     <Custom.CTA>
       {/* <p>Nice to meet you</p> */}
-      <h2 contentEditable>We are an early-stage startup developing new information technology for the constantly evolving healthcare ecosystem</h2>
+      <h2>We are an early-stage startup developing new information technology for the constantly evolving healthcare ecosystem</h2>
     </Custom.CTA>
   </Custom.Container>
 );
