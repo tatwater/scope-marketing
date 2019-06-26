@@ -10,6 +10,7 @@ export const Container = styled.section`
   flex-direction: column;
   height: auto;
   justify-content: flex-start;
+  min-height: 720px;
   padding: 100px 0 320px;
   position: relative;
   text-align: center;
