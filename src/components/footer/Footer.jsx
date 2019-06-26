@@ -14,7 +14,7 @@ const Footer = () => (
             href='https://med.stanford.edu/content/dam/sm/ehr/documents/EHR-Poll-Presentation.pdf'
             target='_new'
           >
-            https://med.stanford.edu/content/dam/sm/ehr/documents/EHR-Poll-Presentation.pdf
+            Stanford Medicine Harris Poll, "How Doctors Feel About Electronic Health Records"
           </a>
         </Custom.Footnote>
         <Custom.Footnote>2.&nbsp;
@@ -22,7 +22,7 @@ const Footer = () => (
             href='https://www.linkedin.com/pulse/decay-healthcare-system-trust-david-loney/'
             target='_new'
           >
-            https://www.linkedin.com/pulse/decay-healthcare-system-trust-david-loney/
+            David Loney, "The Decay of the Healthcare System is a Decay in 'Trust'"
           </a>
         </Custom.Footnote>
       </Custom.Footnotes>

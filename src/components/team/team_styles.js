@@ -28,7 +28,7 @@ export const Person = styled.div`
     'photo basics'
     'bio bio';
   grid-template-columns: 80px 1fr;
-  grid-template-rows: 80px max-content;
+  grid-template-rows: fit-content(80px) max-content;
   padding: 30px;
   width: 100%;
 

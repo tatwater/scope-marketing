@@ -50,8 +50,6 @@ export const Column = styled.div`
   padding: 0 40px;
 
   @media screen and (max-width: 768px) {
-    // flex-basis: 0;
-    // flex-grow: 1;
     max-width: 300px;
     padding: 0 10px;
 

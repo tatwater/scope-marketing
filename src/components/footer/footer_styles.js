@@ -31,6 +31,8 @@ export const Footnote = styled.span`
   color: #212C40;
   display: block;
   font-size: 12px;
+  line-height: 1.3em;
+  margin-top: 4px;
   max-width: 100%;
 
   a:hover {
