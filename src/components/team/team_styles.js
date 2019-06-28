@@ -37,7 +37,7 @@ export const Person = styled.div`
   }
   @media screen and (min-width: 1280px) {
     grid-column-gap: 30px;
-    grid-row-gap: 18px;
+    grid-row-gap: 16px;
     grid-template-areas:
       'photo basics'
       'photo bio';

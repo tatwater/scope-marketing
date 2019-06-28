@@ -72,7 +72,7 @@ const Team = () => (
           </Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
-        <Custom.Bio>Formerly CTO & Co-founder of Fiber and Founder of Shadow Art Studios. BA in Computer Science and Architectural Studies, Selected Scholar for the Ammerman Center for Arts and Technology Certificate Program at Connecticut College.</Custom.Bio>
+        <Custom.Bio>Formerly CTO & Co-founder of Fiber and President & Founder of Shadow Art Studios. BA in Computer Science and Architectural Studies, Selected Scholar for the Ammerman Center for Arts and Technology Certificate Program at Connecticut College.</Custom.Bio>
       </Custom.Person>
       <Custom.Person>
         <Custom.Photo
