@@ -8,16 +8,17 @@ import * as Custom from './homelayout_styles';
 
 
 class HomeLayout extends Component {
-  componentWillMount() {
-    const { mixpanel } = this.props;
-    mixpanel.track('Hello');
+  constructor(props) {
+    super(props);
   }
 
   render() {
     return (
       <Custom.Layout>
         <GlobalStyles />
-        <Navbar />
+        <Navbar
+          onClick={ this.props.mixpanel.track('Hello') }
+        />
         <main>
           { this.props.children }
         </main>
