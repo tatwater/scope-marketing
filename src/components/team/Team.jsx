@@ -66,11 +66,11 @@ const Team = () => (
             Teagan Atwater
             <Custom.LinkedIn
               target='_new'
+              onClick={() => { this.props.mixpanel.track('LinkedIn — Teagan'); }}
               href='https://www.linkedin.com/in/teaganatwater/'
             >
               <img
                 alt='LinkedIn'
-                onClick={() => { this.props.mixpanel.track('LinkedIn — Teagan'); }}
                 src={ linkedin }
               />
             </Custom.LinkedIn>
@@ -133,12 +133,12 @@ const Team = () => (
           <Custom.Name>
             David Loney, CP, MBA
             <Custom.LinkedIn
+              onClick={() => { this.props.mixpanel.track('LinkedIn — David'); }}
               target='_new'
               href='https://www.linkedin.com/in/david-loney-50b86744/'
             >
               <img
                 alt='LinkedIn'
-                onClick={() => { this.props.mixpanel.track('LinkedIn — David'); }}
                 src={ linkedin }
               />
             </Custom.LinkedIn>
