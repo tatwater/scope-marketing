@@ -7,6 +7,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: 'gatsby-plugin-mixpanel',
+      options: {
+        apiToken: '2ae4b217f720aa179690b9d1a4b8f15b', // required
+        pageViews: 'all',
+        trackPageViewsAs: 'Page View',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         typekit: {
