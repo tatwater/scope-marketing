@@ -1,4 +1,5 @@
 import React from 'react';
+import { withMixpanel } from 'gatsby-plugin-mixpanel';
 
 import maynard from '../../images/maynard.png';
 import tim from '../../images/tim.png';
@@ -67,7 +68,11 @@ const Team = () => (
               target='_new'
               href='https://www.linkedin.com/in/teaganatwater/'
             >
-              <img alt='LinkedIn' src={ linkedin } />
+              <img
+                alt='LinkedIn'
+                onClick={() => { this.props.mixpanel.track('LinkedIn — Teagan'); }}
+                src={ linkedin }
+              />
             </Custom.LinkedIn>
           </Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
@@ -131,7 +136,11 @@ const Team = () => (
               target='_new'
               href='https://www.linkedin.com/in/david-loney-50b86744/'
             >
-              <img alt='LinkedIn' src={ linkedin } />
+              <img
+                alt='LinkedIn'
+                onClick={() => { this.props.mixpanel.track('LinkedIn — David'); }}
+                src={ linkedin }
+              />
             </Custom.LinkedIn>
           </Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
@@ -255,4 +264,4 @@ const Team = () => (
 );
 
 
-export default Team;
+export default withMixpanel()(Team);
