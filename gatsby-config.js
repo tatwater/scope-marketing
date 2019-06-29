@@ -20,7 +20,7 @@ module.exports = {
         typekit: {
           id: 'gnq5tqb',
         }
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
