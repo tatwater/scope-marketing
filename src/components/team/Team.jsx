@@ -19,7 +19,7 @@ import linkedin from '../../images/linkedin.svg';
 import * as Custom from './team_styles';
 
 
-const Team = () => (
+const Team = ({ mixpanel }) => (
   <Custom.Container>
     <Custom.Header>
       <h2>Our Team</h2>
@@ -66,7 +66,7 @@ const Team = () => (
             Teagan Atwater
             <Custom.LinkedIn
               target='_new'
-              onClick={() => { this.props.mixpanel.track('LinkedIn — Teagan'); }}
+              onClick={() => { mixpanel.track('LinkedIn — Teagan'); }}
               href='https://www.linkedin.com/in/teaganatwater/'
             >
               <img
@@ -133,7 +133,7 @@ const Team = () => (
           <Custom.Name>
             David Loney, CP, MBA
             <Custom.LinkedIn
-              onClick={() => { this.props.mixpanel.track('LinkedIn — David'); }}
+              onClick={() => { mixpanel.track('LinkedIn — David'); }}
               target='_new'
               href='https://www.linkedin.com/in/david-loney-50b86744/'
             >
