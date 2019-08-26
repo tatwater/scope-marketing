@@ -37,7 +37,7 @@ const Team = ({ mixpanel }) => (
           <Custom.Name>Maynard Carkhuff</Custom.Name>
           <Custom.Location>Orange County, California</Custom.Location>
         </Custom.Basics>
-        <Custom.Bio>Chairman of Freedom Innovations. Formerly CEO and CIO of Freedom Innovations, CEO of Ossur Prosthetics, and President & CEO of Flex-Foot.</Custom.Bio>
+        <Custom.Bio>Chairman of Freedom Innovations. Formerly CEO and CIO, Freedom Innovations; CEO, Ossur Prosthetics; President & CEO, Flex-Foot.</Custom.Bio>
       </Custom.Person>
       <Custom.Person>
         <Custom.Photo
@@ -51,7 +51,7 @@ const Team = ({ mixpanel }) => (
           <Custom.Name>Tim Jenkinson, PhD</Custom.Name>
           <Custom.Location>Oxford, England</Custom.Location>
         </Custom.Basics>
-        <Custom.Bio>Professor of Finance and Director of the Oxford Private Equity Institute at Said Business School. Fellow of Keble College. Chairman of Oxera. Academic advisor to KPMG’s Global Valuation Institute.</Custom.Bio>
+        <Custom.Bio>Professor of Finance at Oxford University Saïd Business School. Director, Oxford University Private Equity Institute. Fellow, Keble College. Chairman, Oxera. Academic advisor, KPMG’s Global Valuation Institute.</Custom.Bio>
       </Custom.Person>
       <Custom.Person>
         <Custom.Photo
@@ -77,49 +77,7 @@ const Team = ({ mixpanel }) => (
           </Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
-        <Custom.Bio>Formerly CTO & Co-founder of Fiber and President & Founder of Shadow Art Studios. BA in Computer Science and Architectural Studies, Selected Scholar for the Ammerman Center for Arts and Technology Certificate Program at Connecticut College.</Custom.Bio>
-      </Custom.Person>
-      <Custom.Person>
-        <Custom.Photo
-          alt='Kaya Fayen'
-          src={ kaya }
-        />
-        <Custom.Basics>
-          <Custom.RoleWrapper>
-            <Custom.Role>Head of People Operations</Custom.Role>
-          </Custom.RoleWrapper>
-          <Custom.Name>Kaya Fayen</Custom.Name>
-          <Custom.Location>Hanover, NH</Custom.Location>
-        </Custom.Basics>
-        <Custom.Bio>BA in Botany from University of Hawaii at Manoa.</Custom.Bio>
-      </Custom.Person>
-      <Custom.Person>
-        <Custom.Photo
-          alt='Greg Hagley, DPT'
-          src={ greg }
-        />
-        <Custom.Basics>
-          <Custom.RoleWrapper>
-            <Custom.Role>Head of UX & QA</Custom.Role>
-          </Custom.RoleWrapper>
-          <Custom.Name>Greg Hagley, DPT</Custom.Name>
-          <Custom.Location>Hanover, NH</Custom.Location>
-        </Custom.Basics>
-        <Custom.Bio>Fellow in Health Systems Research at the Veterans Administration. Physical Therapist at Dartmouth Hitchcock Medical Center. MAS in Patient Safety at Johns Hopkins Bloomberg School of Public Health. Doctor of Physical Therapy at University of New England.</Custom.Bio>
-      </Custom.Person>
-      <Custom.Person>
-        <Custom.Photo
-          alt='Travis Peters, PhD'
-          src={ travis }
-        />
-        <Custom.Basics>
-          <Custom.RoleWrapper>
-            <Custom.Role>Head of Cybersecurity</Custom.Role>
-          </Custom.RoleWrapper>
-          <Custom.Name>Travis Peters, PhD</Custom.Name>
-          <Custom.Location>Hanover, NH</Custom.Location>
-        </Custom.Basics>
-        <Custom.Bio>Assistant Professor of Computer Science at Montana State University. Formerly Security Research Intern at Intel Labs. PhD in Computer Science at Dartmouth College. BS in Computer Science and Mathematics.</Custom.Bio>
+        <Custom.Bio>Formerly CTO & Co-founder of Fiber, and President & Founder of Shadow Art Studios. BA in Computer Science and Architectural Studies, Connecticut College. Selected Scholar, Ammerman Center for Arts and Technology.</Custom.Bio>
       </Custom.Person>
       <Custom.Person>
         <Custom.Photo
@@ -128,7 +86,7 @@ const Team = ({ mixpanel }) => (
         />
         <Custom.Basics>
           <Custom.RoleWrapper>
-            <Custom.Role>CEO, CFO, & <span>Co-Founder</span></Custom.Role>
+            <Custom.Role>CEO, & <span>Co-Founder</span></Custom.Role>
           </Custom.RoleWrapper>
           <Custom.Name>
             David Loney, CP, MBA
@@ -145,21 +103,7 @@ const Team = ({ mixpanel }) => (
           </Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
-        <Custom.Bio>Formerly President and Founder of WillowBrook Prosthetics. Executive MBA from Oxford University. B.Sc. in Human Kinetics from the University of Guelph in Ontario.</Custom.Bio>
-      </Custom.Person>
-      <Custom.Person>
-        <Custom.Photo
-          alt='Roxanne Low'
-          src={ roxanne }
-        />
-        <Custom.Basics>
-          <Custom.RoleWrapper>
-            <Custom.Role>Head of User Interaction Design</Custom.Role>
-          </Custom.RoleWrapper>
-          <Custom.Name>Roxanne Low</Custom.Name>
-          <Custom.Location>Hanover, NH</Custom.Location>
-        </Custom.Basics>
-        <Custom.Bio>BA in Art and Computer Science, Selected Scholar for the Ammerman Center for Arts and Technology Certificate Program at Connecticut College.</Custom.Bio>
+        <Custom.Bio>Formerly President and Founder of WillowBrook Prosthetics. Executive MBA, Oxford University. Clinical prosthetics training, UCLA.</Custom.Bio>
       </Custom.Person>
       <Custom.Person>
         <Custom.Photo
@@ -173,7 +117,63 @@ const Team = ({ mixpanel }) => (
           <Custom.Name>Richard Powell, MD</Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
-        <Custom.Bio>Section Chief of Vascular Surgery at Dartmouth Hitchcock Medical Center. Professor of Surgery, Professor of Radiology at the Geisel School of Medicine at Dartmouth College.</Custom.Bio>
+        <Custom.Bio>Section Chief of Vascular Surgery at Dartmouth Hitchcock Medical Center. Professor of Surgery and Professor of Radiology, Geisel School of Medicine, Dartmouth College.</Custom.Bio>
+      </Custom.Person>
+      <Custom.Person>
+        <Custom.Photo
+          alt='Roxanne Low'
+          src={ roxanne }
+        />
+        <Custom.Basics>
+          <Custom.RoleWrapper>
+            <Custom.Role>Head of User Interaction Design</Custom.Role>
+          </Custom.RoleWrapper>
+          <Custom.Name>Roxanne Low</Custom.Name>
+          <Custom.Location>Hanover, NH</Custom.Location>
+        </Custom.Basics>
+        <Custom.Bio>BA in Art and Computer Science, Phi Beta Kappa, Connecticut College. Selected Scholar, Ammerman Center for Arts and Technology.</Custom.Bio>
+      </Custom.Person>
+      <Custom.Person>
+        <Custom.Photo
+          alt='Greg Hagley, DPT'
+          src={ greg }
+        />
+        <Custom.Basics>
+          <Custom.RoleWrapper>
+            <Custom.Role>Head of UX & QA</Custom.Role>
+          </Custom.RoleWrapper>
+          <Custom.Name>Greg Hagley, DPT</Custom.Name>
+          <Custom.Location>Hanover, NH</Custom.Location>
+        </Custom.Basics>
+        <Custom.Bio>Fellow in Health Systems Research at the Veterans Administration. Physical Therapist, Dartmouth Hitchcock Medical Center. MASc in Patient Safety, Johns Hopkins Bloomberg School of Public Health. Doctor of Physical Therapy, University of New England.</Custom.Bio>
+      </Custom.Person>
+      <Custom.Person>
+        <Custom.Photo
+          alt='Travis Peters, PhD'
+          src={ travis }
+        />
+        <Custom.Basics>
+          <Custom.RoleWrapper>
+            <Custom.Role>Head of Cybersecurity</Custom.Role>
+          </Custom.RoleWrapper>
+          <Custom.Name>Travis Peters, PhD</Custom.Name>
+          <Custom.Location>Hanover, NH</Custom.Location>
+        </Custom.Basics>
+        <Custom.Bio>Assistant Professor of Computer Science at Montana State University. PhD in Computer Science, Dartmouth College.</Custom.Bio>
+      </Custom.Person>
+      <Custom.Person>
+        <Custom.Photo
+          alt='Kaya Fayen'
+          src={ kaya }
+        />
+        <Custom.Basics>
+          <Custom.RoleWrapper>
+            <Custom.Role>Head of People Operations</Custom.Role>
+          </Custom.RoleWrapper>
+          <Custom.Name>Kaya Fayen</Custom.Name>
+          <Custom.Location>Hanover, NH</Custom.Location>
+        </Custom.Basics>
+        <Custom.Bio>BA in Botany, University of Hawaii at Manoa.</Custom.Bio>
       </Custom.Person>
       {/* <Custom.Person>
         <Custom.Photo
@@ -201,7 +201,7 @@ const Team = ({ mixpanel }) => (
           <Custom.Name>Gunnar Ek</Custom.Name>
           <Custom.Location>Portsmouth, NH</Custom.Location>
         </Custom.Basics>
-        <Custom.Bio>President of Drive Public Relations, Inc., specializing in innovative communication strategies for Fortune 500 companies, government institutions, and tech startups. B.Sc. in Engineering from Karlstad University, Sweden.</Custom.Bio>
+        <Custom.Bio>President of Drive Public Relations, Inc., specializing in innovative communication strategies for Fortune 500 companies, government institutions, and tech startups. B.Sc. in Engineering, Karlstad University, Sweden.</Custom.Bio>
       </Custom.Person>
       {/* <Custom.Person>
         <Custom.Photo
@@ -229,7 +229,7 @@ const Team = ({ mixpanel }) => (
           <Custom.Name>Susan Murray, MD</Custom.Name>
           <Custom.Location>Portsmouth, NH</Custom.Location>
         </Custom.Basics>
-        <Custom.Bio>Teaching Associate of Tufts Medical School residency program. Family Medicine Physician at Appledore Family Medicine.</Custom.Bio>
+        <Custom.Bio>Teaching Associate of Tufts Medical School residency program. Family Medicine Physician, Appledore Family Medicine.</Custom.Bio>
       </Custom.Person>
       <Custom.Person>
         <Custom.Photo
@@ -243,7 +243,7 @@ const Team = ({ mixpanel }) => (
           <Custom.Name>Roshini Pinto-Powell, MD</Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
-        <Custom.Bio>General Internal Medicine at Dartmouth Hitchcock Medical Center. Associate Professor of Medical Education at the Geisel School of Medicine at Dartmouth College.</Custom.Bio>
+        <Custom.Bio>General Internal Medicine at Dartmouth Hitchcock Medical Center. Associate Professor of Medical Education, Geisel School of Medicine, Dartmouth College.</Custom.Bio>
       </Custom.Person>
       {/* <Custom.Person>
         <Custom.Photo

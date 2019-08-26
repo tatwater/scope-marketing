@@ -18,7 +18,7 @@ export const Content = styled.div`
   width: 90%;
 `;
 export const Copyright = styled.span`
-  color: #212C40;
+  color: rgba(255, 255, 255, .3);
   display: block;
   font-size: 12px;
   margin-top: 10px;
@@ -28,7 +28,7 @@ export const Footnotes = styled.div`
   margin-top: 30px;
 `;
 export const Footnote = styled.span`
-  color: #324359;
+  color: rgba(255, 255, 255, .5);
   display: block;
   font-size: 12px;
   line-height: 1.3em;

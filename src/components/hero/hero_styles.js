@@ -34,6 +34,7 @@ export const HiddenLogo = styled.div`
     top: -1000px;
 `;
 export const Browser = styled.img`
+  max-height: calc(80vh - 100px);
   max-width: 1040px;
   position: absolute;
     top: calc(50% + 10px);
