@@ -126,7 +126,7 @@ const Team = ({ mixpanel }) => (
         />
         <Custom.Basics>
           <Custom.RoleWrapper>
-            <Custom.Role>Head of User Interaction Design</Custom.Role>
+            <Custom.Role>Head of Interaction Design</Custom.Role>
           </Custom.RoleWrapper>
           <Custom.Name>Roxanne Low</Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
@@ -170,7 +170,7 @@ const Team = ({ mixpanel }) => (
           <Custom.RoleWrapper>
             <Custom.Role>Head of People Operations</Custom.Role>
           </Custom.RoleWrapper>
-          <Custom.Name>Kaya Fayen</Custom.Name>
+          <Custom.Name>Kaya Meenagh</Custom.Name>
           <Custom.Location>Hanover, NH</Custom.Location>
         </Custom.Basics>
         <Custom.Bio>BA in Botany, University of Hawaii at Manoa.</Custom.Bio>
