@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8524b73a-bb59-497d-a4ef-6c9c30e04138/deploy-status)](https://app.netlify.com/sites/cliniciq/deploys)
 
 # Scope — Marketing Site
 
